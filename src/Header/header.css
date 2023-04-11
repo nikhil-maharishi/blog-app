@@ -1,0 +1,55 @@
+.header{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(255,255,255,0.1) ,
+    rgba(255,255,255,1)) , url('https://img.freepik.com/premium-photo/flat-lay-office-desk-table-modern-workplace-with-laptop-white-background-top-view_11358-1693.jpg?w=2000');
+    height: calc(100vh - 50px);
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bigtxt{
+    color: black;
+    margin-top: 40vh;
+    margin-left: 30vw;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.smltxt{
+    color: black;
+    margin-top: 10px;
+    margin-left: 30vw;
+    font-size: 20px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.smltxt2{
+    margin-top: 10px;
+    margin-left: 30vw;
+    font-size: 20px;
+    font-style: italic;
+}
+.create {
+    margin-left: 30vw;
+    margin-top: 30px;
+    background-color: rgb(242,131 ,126);
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    
+    font-size: 15px;
+  
+}
+.create > a{
+    text-decoration: none;
+    
+}
+.create:hover{
+    
+    background-color: rgb(219,84 ,88);
+    
+    
+    
+}

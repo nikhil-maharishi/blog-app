@@ -1,0 +1,19 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    
+    gap: 10%;
+    margin-left: 70px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+
+.contHead{
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}

@@ -1,0 +1,74 @@
+.login{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,1)), url('https://static.vecteezy.com/system/resources/previews/001/948/855/non_2x/flat-design-abstract-background-free-vector.jpg');
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    background-size: cover;
+    
+    width: 100%;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.formContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+
+}
+.input{
+   border-width: .1px;
+   border-color: rgb(221, 223, 223);
+    color: white;
+    padding: 10px;
+    margin: 7px;
+    font-size: 20px;
+    color: black;
+}
+.loginLabel{
+    font-size: 20px;
+    font-family:sans-serif;
+}
+.signinBtn{
+    margin: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    background-color: rgb(242,131 ,126);
+    border-radius: 10px;
+}
+.signinBtn:hover{
+    background-color:rgb(219, 84, 88);
+}
+.signinBtn > a{
+    text-decoration: none;
+    color: black;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    margin-top: 77px;
+}
+.bigtext{
+    font-size: 50px;
+    color: rgb(114,88, 127);
+}
+.smltext{
+    font-size: 30px;
+    color: rgb(114,88, 127);
+}
+.extbigtxt{
+    font-size: 50px;
+    color: rgb(242,131 ,126);
+    margin-bottom: 50px;
+}
